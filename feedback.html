@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FEEDBACK FORM </title>
+        <style>
+
+
+body{
+        font-family:latha;
+        color: white;
+        background: 
+        url('HTB14z57aiqAXuNjy1Xdq6yYcVXaU.jpg')no-repeat;
+        background-size: 100% ;
+    }
+    .nav{
+        border: 2px solid none;
+        top:0px;
+        margin-left: 500px;
+        width: 900px;
+        height:40px;
+        font-size:25px;
+       
+        
+
+    }
+
+    .nav h{
+       float:left;
+        width: 120px;
+        margin: 10px auto;
+        text-align:center;
+        
+       
+    }
+    .nav h:hover{
+        background-color:green;
+       
+    }
+    .nav a{
+      color:white;
+    }
+    .Ln a{
+        color:deepskyblue;
+        font-size:15px;
+
+    }
+    .Ln a:hover{
+        color:green;
+    }
+    p:hover
+ {
+   color:rgb(0, 14, 139);
+   font-size:30px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+            
+            .Feedback-Form{
+                   
+                width: 350px;
+                top: 25%;
+                left: 40%;
+                position: absolute;
+                background-color:rgba(236, 226, 226, 0.288);
+                border-radius: 50px;
+                box-shadow: 1px 2px 10px 5px  rgb(6, 25, 190);
+                animation: change 7s linear infinite;
+                opacity:0.9;
+
+            }
+            @keyframes change{
+                0%{box-shadow: 1px 2px 10px 5px rgb(248, 3, 3);}
+                25%{box-shadow: 1px 2px 10px 5px rgba(226, 230, 7, 0.904);}
+                    50%{box-shadow: 1px 2px 10px 5px rgb(248, 2, 228);}
+                    75%{box-shadow:1px 2px 10px 5px blue;}
+                        100%{box-shadow: 1px 2px 10px 5px rgb(12, 240, 134);}
+            }
+            
+            .Feedback-Form h1{
+                font-size: 40px;
+                text-align: center;
+                margin: 40px 0;
+                color: transparent;
+                animation: effect 4s linear infinite;
+            }
+            @keyframes effect{
+                0%{background: linear-gradient(rgb(206, 7, 50),rgb(192, 192, 168),rgb(158, 152, 189)); -webkit-background-clip: text; }
+                50%{background: linear-gradient(rgb(4, 78, 28),rgb(197, 12, 43),rgb(150, 123, 199)); -webkit-background-clip: text; }
+                100%{background: linear-gradient(rgba(139, 7, 89, 0.767),#9ca2c5f3,rgba(56,89,0,67)); -webkit-background-clip: text; }
+            }
+
+        
+            .Feedback-Form p{
+                font-size: 20px;
+                margin: 15px 0;
+                color:white;
+                font-weight:bold;
+            }
+            .Login-Form input{
+             
+                 font-size: 20px;
+                width: 900%;
+                  height:40px; 
+                padding: 15px 10px;
+                margin:10px;
+                border: 0;
+                outline: none;
+                border-radius: 5px;
+              
+               
+            }
+            .Feedback-Form button{
+                font-size: 18px;
+                font-weight: bold;
+                margin:50px 70px;
+                padding: 10px 15px;
+                width: 50%;
+                border-radius:10px;
+                border:0; 
+                background-color:yellow;
+            }
+
+             button:hover{
+                opacity: 0.7;
+            }
+               div {
+                   background-image: url("images/color.jpg");
+                   }
+
+
+         
+ 
+             </style>
+             <body>
+               
+               
+
+         <div class="Feedback-Form">
+            <h1><strong>Feedback Form</strong></h1>
+             <form>
+                <p>User Name :</p>
+                <input type="text"  placeholder="Enter your Name" required>
+                <p>Email address :</p>
+                <input type="password" placeholder="Enter email" required>
+                  <p>Contact Number :</p>
+                <input type="text"  placeholder="Enter your Mobile No" required>
+                  <p>FEEDBACK MESSAGE :</p>
+                <input type="text"  placeholder="Enter Feedback " required><br><br><br><br>
+                <button onclick="myFunction()">Submit</button>
+            </form>
+        </div>
+
+      <p id="demo"></p>
+    <script>
+  function myFunction() {
+  document.getElementById("demo").innerHTML = "THANKS FOR GIVING FEEDBACK MESSAGE .";
+    }
+  </script>
+ <body style="background-color: #C0C0C0;">
+
+
+</body>
+</html>
+
+
+
+
+
+
+  

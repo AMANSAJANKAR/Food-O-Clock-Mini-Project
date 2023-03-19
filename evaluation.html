@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Food O' Clock</title>
+        <link rel="stylesheet" href="style.css">
+   </head>
+
+   <style>
+
+
+     
+     .hero{
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url('https://media1.giphy.com/media/ZdepVTYArff7NirCK9/giphy.gif?cid=ecf05e477cc01iddzblqtz0vlwscekf4je5mrq4xmc9557fy&rid=giphy.gif&ct=s');
+    background-color:rgb(0, 0, 0);
+    background-position: center;
+    background-size: 30%;
+    background-repeat:no-repeat;
+    color:white;
+}
+.logo{
+ margin-left:0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    background-color:mediumblue;
+}
+
+.Wel h1{
+     font-size: 50px;
+     margin-left: 50px;
+     font-family:cursive;
+}
+
+.Wel pre{
+    font-size: 50px;
+    margin-left: 50px;
+    font-family:cursive;
+}
+
+.cta{
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 100px;
+    font-size: 27px;
+    animation: movedown 1s linear 1;
+
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+.cta button:hover{
+    opacity: 0.5;
+
+} 
+   </style>
+
+
+
+    <body>
+         
+ 
+
+
+
+        <div class="hero">
+        <nav>
+       
+         <img src="images/symbol.jpg" class="logo">    
+      
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Why Food O' Clock?.html">Why Food O' Clock?</li>
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+           
+           
+        </ul>
+    </nav>
+               <div class="Ln">
+   <h3>
+   &emsp;<a href=Register.html style="float:right;text-align:right;margin-left:0px;"> REGISTER </a> 
+   <a href=Login.html  style="float:right;text-align:right;"> LOGIN / </a>
+  </h3> 
+  </div>  
+ 
+
+    <div class="Wel">
+        <h1>Welcome</h1>
+        <pre>  To 
+     Food o' Clock</pre>
+    </div>
+
+    <div class="cta">
+        <p>Hungry,Wanna eat <br>just choose your snacks</p>
+        <button type="button"> CHECK Out Our Menu -->></button>
+</div>
+
+ 
+    </body>
+</html>
